@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part4;
+package src.com.mvo.module1.part4.example2;
 
 import java.util.concurrent.Semaphore;
 
