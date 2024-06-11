@@ -14,7 +14,5 @@ public class FooMainExecute {
         executor.execute(foo::third);
 
         executor.shutdown();
-
     }
-
 }
