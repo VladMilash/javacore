@@ -1,4 +1,5 @@
-package src.com.mvo.module1.part4.example2;
+package src.com.mvo.module1.part4.reentrantLockExample;
+
 
 public class FooMain {
     public static void main(String[] args) {

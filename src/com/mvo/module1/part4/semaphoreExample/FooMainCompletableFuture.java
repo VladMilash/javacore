@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part4.example2;
+package src.com.mvo.module1.part4.semaphoreExample;
 
 import java.util.concurrent.CompletableFuture;
 

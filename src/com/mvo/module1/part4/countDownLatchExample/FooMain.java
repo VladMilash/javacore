@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part4.example1;
+package src.com.mvo.module1.part4.countDownLatchExample;
 
 
 public class FooMain {

@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part4.example3;
+package src.com.mvo.module1.part4.reentrantLockExample;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
