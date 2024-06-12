@@ -1,4 +1,5 @@
-package src.com.mvo.module1.part4.semaphoreExample;
+package src.com.mvo.module1.part4.countdown;
+
 
 public class FooMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part4.countDownLatchExample;
+package src.com.mvo.module1.part4.countdown;
 
 import java.util.concurrent.CountDownLatch;
 

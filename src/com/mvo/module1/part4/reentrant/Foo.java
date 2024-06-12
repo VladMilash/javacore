@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part4.reentrantLockExample;
+package src.com.mvo.module1.part4.reentrant;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -7,7 +7,6 @@ public class Foo {
     private final ReentrantLock lock = new ReentrantLock();
     private final Condition signalFromFirstMethod = lock.newCondition();
     private final Condition signalFromSecondMethod = lock.newCondition();
-
 
     public void first() {
         lock.lock();

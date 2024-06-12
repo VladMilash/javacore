@@ -1,5 +1,4 @@
-package src.com.mvo.module1.part4.countDownLatchExample;
-
+package src.com.mvo.module1.part4.semaphore;
 
 public class FooMain {
     public static void main(String[] args) {
