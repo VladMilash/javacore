@@ -1,6 +1,4 @@
-package src.com.mvo.module1.part4.reentrant;
-
-
+package src.com.mvo.module1.part4.synchroniz;
 public class FooMain {
     public static void main(String[] args) {
         Foo foo = new Foo();

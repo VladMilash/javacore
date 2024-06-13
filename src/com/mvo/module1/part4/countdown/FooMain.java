@@ -12,5 +12,13 @@ public class FooMain {
         threadC.start();
         threadB.start();
         threadA.start();
+
+        try {
+            threadA.join();
+            threadB.join();
+            threadC.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
