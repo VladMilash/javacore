@@ -6,7 +6,7 @@ public class Main {
 
         Cottage cottage = cottageBuilder
                 .buildHouse("House")
-                .buidSwing("Swing")
+                .buildSwing("Swing")
                 .build();
 
         cottage.cottageComposition();

@@ -16,12 +16,12 @@ public class CottageBuilder {
         return this;
     }
 
-    public CottageBuilder buidGarden(String doors) {
+    public CottageBuilder buildGarden(String doors) {
         this.garden = doors;
         return this;
     }
 
-    public CottageBuilder buidSwing(String roof) {
+    public CottageBuilder buildSwing(String roof) {
         this.swing = roof;
         return this;
     }
