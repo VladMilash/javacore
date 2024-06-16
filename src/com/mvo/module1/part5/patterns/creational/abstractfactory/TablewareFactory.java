@@ -1,0 +1,7 @@
+package src.com.mvo.module1.part5.patterns.creational.abstractfactory;
+
+public interface TablewareFactory {
+    CupsCreator createCup();
+    PlatesCreator createPlate();
+    SpoonsCreator createSpoon();
+}
