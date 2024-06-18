@@ -1,4 +1,4 @@
-package src.com.mvo.module1.part5.patterns.iterator;
+package src.com.mvo.module1.part5.patterns.behavioral.iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
