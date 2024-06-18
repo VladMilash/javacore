@@ -1,6 +1,6 @@
 package src.com.mvo.module1.part5.patterns.behavioral.interpreter;
 
-class SubtractExpression implements Expression {
+public class SubtractExpression implements Expression {
     private final int number1;
     private final int number2;
 
