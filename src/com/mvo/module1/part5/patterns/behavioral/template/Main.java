@@ -5,7 +5,7 @@ public class Main {
         JavaDeveloper javaDeveloper = new JavaDeveloper("Ivan");
         PythonDeveloper pythonDeveloper = new PythonDeveloper("Nikita");
 
-        javaDeveloper.Working();
-        pythonDeveloper.Working();
+        javaDeveloper.working();
+        pythonDeveloper.working();
     }
 }

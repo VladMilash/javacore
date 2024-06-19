@@ -11,7 +11,7 @@ public abstract class Developer {
         return name;
     }
 
-    public void Working(){
+    public void working(){
         System.out.println(name + " Open Tasks\n" + "Start working");
         writeCode();
         System.out.println(name + " has finishing work");
