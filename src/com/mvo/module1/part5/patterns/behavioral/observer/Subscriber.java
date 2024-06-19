@@ -13,6 +13,6 @@ public class Subscriber implements Observer {
 
     @Override
     public void handleEvent(List<String> phoneModels) {
-        System.out.println("Hi, " + name + "\nWe have some changes in phone models\n" + phoneModels);
+        System.out.println("Hi, " + name + "\nWe have some changes in phones models\n" + phoneModels);
     }
 }

@@ -2,7 +2,7 @@ package src.com.mvo.module1.part5.patterns.behavioral.observer;
 
 public class Main {
     public static void main(String[] args) {
-        PhoneShop phoneShop = new PhoneShop();
+        PhonesShop phoneShop = new PhonesShop();
         phoneShop.addModels("Samsung");
         phoneShop.addModels("IPhone");
 

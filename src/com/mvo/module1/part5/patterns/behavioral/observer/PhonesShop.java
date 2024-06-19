@@ -3,16 +3,16 @@ package src.com.mvo.module1.part5.patterns.behavioral.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PhoneShop implements Observed {
-    public List<String> phoneModels = new ArrayList<>();
+public class PhonesShop implements Observed {
+    public List<String> phonesModels = new ArrayList<>();
     public List<Observer> subscribers = new ArrayList<>();
 
     public void addModels(String model) {
-        this.phoneModels.add(model);
+        this.phonesModels.add(model);
     }
 
     public void removeModels(String model) {
-        this.phoneModels.remove(model);
+        this.phonesModels.remove(model);
     }
 
     @Override
@@ -29,7 +29,7 @@ public class PhoneShop implements Observed {
     @Override
     public void notifyObservers() {
         for (Observer observer : subscribers) {
-            observer.handleEvent(phoneModels);
+            observer.handleEvent(phonesModels);
         }
     }
 }
